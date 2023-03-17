@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Accueille</a>
+            <a href="#about">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3> Bonjour, Je m'appelle</h3>
+            <h1>Ndeye Amie Thiam</h1>
+            <h3>Je suis <span class="multiple-text"></span></h3>
+            <p>Et étudiande en deuxième année en Communication Digital.
+                Depuis le début de mon parcours en tant que apprenant developpeuse, j'ai commencé à partir du rien</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn">Télécharger mon CV</a>
+        </div>
+        <div class="home-img">
+            <img src="image2.jpeg" alt="">
+        </div>
+    </section>
+
+    <!--home section about-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image2.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">À propos de <span>Moi</span></h2>
+            <h3>Developpeuse Full-Stak Javascript!</h3>
+            <p>Hello,Mon nom est Ndeye Amie Thiam Je suis Developpeuse Full-Stack Javascript,
+                 Passionné par l'informatique le numérique en général depuis quelque temps........ 
+                 pour moi, Le plus difficile est de se décider à agir, le reste n'est que de la tenacité. ce qui veut dire que La motivation et la détermination qui consiste la clé première de toute chose</p>
+            <a href="#" class="btn">En savoir plus...</a>
+        </div>
+    </section>
+
+    <!--home service about-->
+
+    <section class="services" id="services">
+        <h2 class="heading"> Mes <span>Compétances</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-html5'></i>
+                <h3>Html</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi voluptate necessitatibus minus fugiat laudantium,
+                    quia perferendis error reprehenderit rem aliquid velit facilis vel soluta? Harum quia perferendis
+                    molestias laudantium nobis.</p>
+                <a href="#" class="btn">En savoir plus...</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi voluptate necessitatibus minus fugiat laudantium,
+                    quia perferendis error reprehenderit rem aliquid velit facilis vel soluta? Harum quia perferendis
+                    molestias laudantium nobis.</p>
+                <a href="#" class="btn">En savoir plus...</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>Javascript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi voluptate necessitatibus minus fugiat laudantium,
+                    quia perferendis error reprehenderit rem aliquid velit facilis vel soluta? Harum quia perferendis
+                    molestias laudantium nobis.</p>
+                <a href="#" class="btn">En savoir plus...</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>React JS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi voluptate necessitatibus minus fugiat laudantium,
+                    quia perferendis error reprehenderit rem aliquid velit facilis vel soluta? Harum quia perferendis
+                    molestias laudantium nobis.</p>
+                <a href="#" class="btn">En savoir plus...</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-react'></i>
+                <h3>React-Native</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi voluptate necessitatibus minus fugiat laudantium,
+                    quia perferendis error reprehenderit rem aliquid velit facilis vel soluta? Harum quia perferendis
+                    molestias laudantium nobis.</p>
+                <a href="#" class="btn">En savoir plus...</a>
+            </div>
+        </div>
+    </section>
+
+    <!--home service portfolio-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Mes Derniers <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="porfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio</h4>
+                    <p>Avec Html , css et un peut du Javascript</p>
+                    <a><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="meteo.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Application Meteo</h4>
+                    <p>Avec React.js, html, CSS et un peu du Bootstrap 5</p>
+                    <a><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="budget.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Application deGestion Budget</h4>
+                    <p>Avec 100% du Javascript , html, et du Css</p>
+                    <a><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Application de calculatrice</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat numquam praesentium</p>
+                    <a><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="api.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>API Blog</h4>
+                    <p>En utilisant des Endepoint</p>
+                    <a><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="e-c.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Site E-Commerce de A a Z</h4>
+                    <p>En utlisants ReactJs pour la frontend et et Node.js pour la backend</p>
+                    <a><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--home section contact design-->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contactez- <span>Moi!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Adress">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+  <!--home footer design-->
+  <footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Ndeye Amie Thiam | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+  </footer>
+
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--type js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--custom js-->
+    <script src="script.js"></script>
+</body>
+
+
+</html>
